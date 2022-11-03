@@ -15,7 +15,34 @@ public class musicApp
 
     private void addSomeSongs()
     {
-        song Song = new song("Paradise City", "Guns N' Roses", 2319032);
+        song Song = new song("Paradise City", "Guns N' Roses", 807387102);
+        songs.add(Song);
+
+        Song = new song("Black Betty", "Ram Jam", 314338990);
+        songs.add(Song);
+
+        Song = new song("Thunderstruck", "AC/DC", 1033664769);
+        songs.add(Song);
+
+        Song = new song("Kickstart My Heart", "Motley Crue", 429618926);
+        songs.add(Song);
+
+        Song = new song("Rebel Yell", "Billy Idol", 273831464);
+        songs.add(Song);
+
+        Song = new song("No More Mr. Nice Guy", "Alice Cooper", 51735318);
+        songs.add(Song);
+
+        Song = new song("All Along The Watchtower", "Jimi Hendrix", 562958134);
+        songs.add(Song);
+
+        Song = new song("The Spirit Of Radio", "Rush", 86743531);
+        songs.add(Song);
+
+        Song = new song("Living After Midnight", "Judas Priest", 84360212);
+        songs.add(Song);
+
+        Song = new song("Detroit Rock City", "KISS", 179302761);
         songs.add(Song);
     }
 
