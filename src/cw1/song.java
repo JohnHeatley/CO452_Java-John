@@ -1,5 +1,6 @@
 package cw1;
 
+//This makes the class for the songs and provides the way to hold thne variables needed in the array
 public class song 
 {
 
