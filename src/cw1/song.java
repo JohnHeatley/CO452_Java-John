@@ -2,7 +2,6 @@ package cw1;
 
 public class song 
 {
-    private int id;
 
     private String title;
 
@@ -19,6 +18,16 @@ public class song
 
     public void print()
     {
-        System.out.print(title + " by " + artist + " plays:" + numberOfPlays);
+        System.out.print(title + " by " + artist + " plays:" + numberOfPlays + "\n");
+    }
+
+    public String getTitle()
+    {
+        return title;
+    }
+
+    public int getNumberOfPlays()
+    {
+        return numberOfPlays;
     }
 }
