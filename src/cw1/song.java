@@ -19,6 +19,6 @@ public class song
 
     public void print()
     {
-        System.out.print(title + " by " + artist + "plays:" + numberOfPlays);
+        System.out.print(title + " by " + artist + " plays:" + numberOfPlays);
     }
 }
