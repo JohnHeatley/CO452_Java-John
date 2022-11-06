@@ -21,7 +21,7 @@ public class musicApp
         while(!wantToExit)
         {
             displayMenu();
-            int choice = InputReader.getInt("Please enter song choice >");
+            int choice = InputReader.getInt("Please enter your choice >");
 
             switch(choice)
             {
@@ -119,7 +119,7 @@ public class musicApp
     //this method prints all the songs that are currently in the list of songs
     private void printAllSongs(int count)
     {
-        System.out.println("\nPrinting All Songs\n");
+        System.out.println("\nPrinting Songs\n");
 
         for(song Song : songs)
         {
@@ -133,6 +133,8 @@ public class musicApp
     //this method asks the user to input a number for the amount of plays a song has and displays all songs above that count
     private void printTopSongs()
     {
+        System.out.println("\nPrinting Top Songs\n");
+
         int countTotal = InputReader.getInt("Enter a number of plays to see all songs above that playcount >");
         printAllSongs(countTotal);
     }
